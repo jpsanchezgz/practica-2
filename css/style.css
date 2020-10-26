@@ -1,0 +1,138 @@
+* {
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    width: 40%;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav .button-style {
+    background-color: #410ff8;
+    color: white;
+    font-family: arial, sans-serif;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+header {
+    background-color: #F9FFF2;
+    padding-top: 15px;
+    background-image: url('../images/MaskGroup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .header-info {
+    text-align: center;
+    padding: 100px 0;
+}
+
+header .header-info h1 {
+    font-size: 50px;
+}
+
+header .header-info p span {
+    color: #32BBA4;
+    font-weight: bold;
+}
+
+section article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+article button {
+    width: 100%;
+    background-color: #410ff8;
+    color: white;
+    padding: 10px 0;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+article ul {
+    padding: 0;
+    margin-top: 15px;
+}
+
+article ul li {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+article ul li i {
+    color: purple;
+    margin-right: 10px;
+}
+
+article .price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+article .rate {
+    color: #8E8E8E;
+    font-size: small;
+    padding: 4px 0;
+}
+
+article.middle-article {
+    background-color: #410ff8;
+}
+
+article.middle-article p {
+    color: white;
+}
+
+article.middle-article h4 {
+    color: white;
+}
+
+article.middle-article ul li {
+    color: white;
+}
+
+article.middle-article ul i {
+    color: white;
+}
+
+article.middle-article button {
+    color: #410ff8;
+    background-color: white;
+}
+
+/* no pude hacer mis "lorem" más chiquitos
+y tampoco pude hacer grande el background del
+boton de signup */
